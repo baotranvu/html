@@ -1,0 +1,12 @@
+[class*=shopping-],
+[class^=shopping-] {
+    background: url("../icon/shopping.svg") no-repeat;
+}
+
+.shopping-cart {
+    background-size: 960px 120px;
+    height: 24px;
+    width: 24px;
+    background-position: -49px -48px;
+   
+}

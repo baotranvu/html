@@ -1,0 +1,158 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 1500px;
+    height: 100px;
+}
+
+.header__menu--logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12.31px;
+    width: 111px;
+    height: 32px;
+
+}
+
+.header__menu--nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 539px;
+    height: 100px;
+}
+
+.header__menu--item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0px;
+    width: 119px;
+    height: 100px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+
+}
+
+.header__group {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+    isolation: isolate;
+    height: 52px;
+}
+
+.search__group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 171px;
+    height: 34px;
+
+    /* Color/Base/300 */
+
+    background: #E6E8EC;
+    border-radius: 4px;
+
+}
+
+.search__icon {
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+
+.search__input {
+    display: flex;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+
+}
+
+
+.header__cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    width: 34px;
+    height: 34px;
+
+    /* Color/Base/300 */
+
+    background: #E6E8EC;
+    border-radius: 4px;
+}
+
+.header__location {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    isolation: isolate;
+    width: 120px;
+    height: 34px;
+    /* Color/Primary/800 */
+    background: #FF6421;
+    border-radius: 4px;
+}
+
+.location__container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.location__label {
+    display: flex;
+    flex-direction: column;
+    color: #ffff;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+}
+
+.location__label--name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.location__label--price {
+    font-family: 'Google Sans Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 12px;
+}
+

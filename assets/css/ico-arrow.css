@@ -1,0 +1,14 @@
+[class*=arrow-],
+[class^=arrow-] {
+    background: url("../icon/arrow.svg") no-repeat;
+
+
+}
+
+.arrow-down {
+    background-size: 736px 232px;
+    height: 24px;
+    width: 24px;
+    background-position: -380px -48px;
+   
+}

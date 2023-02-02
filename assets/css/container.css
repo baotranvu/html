@@ -1,0 +1,115 @@
+.container__banner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 1920px;
+    height: 602px;
+    background: url('../images/banner.png');
+}
+
+.container__menu {
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    /* Auto layout */
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    width: 1920px;
+    height: 136px;
+
+    /* Color/Base/300 */
+
+    border-bottom: 1px solid #E6E8EC;
+}
+
+.container__menu--group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 704px;
+    height: 136px;
+}
+
+.container__menu--item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 24px;
+    gap: 16px;
+    width: 128px;
+    height: 136px;
+}
+
+.container__menu-item--text {
+    width: max-content;
+    height: 16px;
+    font-family: 'Google Sans Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    text-align: center;
+    /* Color/Base/800 */
+    color: #141416;
+}
+
+.container__combo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 1920px;
+    height: 964px;
+}
+
+.container__internet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 1920px;
+    height: 964px;
+}
+
+.container__camera {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 1920px;
+    height: 964px;
+}
+
+.container__fptplay {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 1920px;
+    height: 964px;
+}
+
+.container__playbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 1920px;
+    height: 964px;
+}

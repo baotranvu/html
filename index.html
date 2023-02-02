@@ -6,177 +6,240 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DKOL V6.x</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/container.css">
+    <link rel="stylesheet" href="./assets/css/ico-arrow.css">
+    <link rel="stylesheet" href="./assets/css/ico-interface.css">
+    <link rel="stylesheet" href="./assets/css/ico-shopping.css">
+    <link rel="stylesheet" href="./assets/css/ico-menu.css">
 </head>
 
 <body>
-    <header class="header">
-        <div class="header__menu">
-            <img src="" alt="" />
-            <nav class="header__menu--nav">
-                <li class="header__menu--item">
-                    <a href="#">Dịch vụ</a>
-                </li>
-                <li class="header__menu--item">
-                    <a href="#">Sản phẩm</a>
-                </li>
-                <li class="header__menu--item">
-                    <a href="#">Khuyến mãi</a>
-                </li>
-                <li class="header__menu--item">
-                    <a href="#">Tin tức</a>
-                </li>
-                <li class="header__menu--item">
-                    <a href="#">Hỗ trợ</a>
-                </li>
-            </nav>
-        </div>
-    </header>
     <div class="container">
-        <div class="container__banner">
+        <header class="header">
+            <div class="header__menu">
+                <div class="header__menu--logo">
+                    <img src="./assets/icon/fpt-logo.svg" alt="">
+                </div>
+                <ul class="header__menu--nav">
+                    <li class="header__menu--item">
+                        <a href="javascript:;">Dịch vụ</a>
+                        <i class="arrow-down"></i>
+                    </li>
+                    <li class="header__menu--item">
+                        <a href="javascript:;">Sản phẩm</a>
+                        <i class="arrow-down"></i>
+                    </li>
+                    <li class="header__menu--item">
+                        <a href="javascript:;">Khuyến mãi</a>
+                    </li>
+                    <li class="header__menu--item">
+                        <a href="javascript:;">Tin tức</a>
+                    </li>
+                    <li class="header__menu--item">
+                        <a href="javascript:;">Hỗ trợ</a>
+                    </li>
+                </ul>
+                <div class="header__group">
+                    <div class="search__group">
+                        <div class="search__icon">
+                            <i class="interface-search"></i>
+                        </div>
+                        <input type="text" placeholder="Tìm kiếm" class="search__input">
+                    </div>
+                    <button class="header__cart">
+                        <i class="shopping-cart"></i>
+                    </button>
+                    <button class="header__location">
+                        <div class="location__container">
+                            <i class="interface-location"></i>
+                            <div class="location__label">
+                                <p class="location__label--price">Xem giá tại</p>
+                                <p class="location__label--name">Hà Nội</p>
+                            </div>
+                            <i class="arrow-down"></i>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="container__banner">
 
-        </div>
-        <div class="container__menu">
-            <a href="">Icon</a>
-            <a href="">Icon</a>
-            <a href="">Icon</a>
-            <a href="">Icon</a>
-        </div>
-        <div class="container__title">
-            <p class="container__title--text">
-                This is title
-            </p>
-            <div class="container__title--menu">
-                <a href="">Menu</a>
-                <a href="">Menu</a>
-                <a href="">Menu</a>
             </div>
-        </div>
-        <div class="container__combo--list">
-            <div class="container__combo--item">combo item</div>
-            <div class="container__combo--item">combo item</div>
-            <div class="container__combo--item">combo item</div>
-        </div>
-        <div class="container__internet">
-            <div class="container__internet--title">
-                <p class="internet__title--text">
-                    internet title
-                </p>
-                <p class="internet__title--description">
-                    internet description
-                </p>
-            </div>
-            <div class="internet__package--list">
-                <div class="internet__package--item">internet item</div>
-                <div class="internet__package--item">internet item</div>
-                <div class="internet__package--item">internet item</div>
-            </div>
-        </div>
-        <div class="container__camera">
-            <div class="container__camera--title">
-                <p class="camera__title--text">
-                    Camera title
-                </p>
-                <p class="camera__title--description">
-                    camera description
-                </p>
-            </div>
-            <div class="camera__package--list">
-                <div class="camera__package--item">
-                    camera item
-                </div>
-                <div class="camera__package--item">
-                    camera item
+            <div class="container__menu">
+                <div class="container__menu--group">
+                    <a href="#combo" class="container__menu--item">
+                        <i class="iconfpt-combo"></i>
+                        <p class="container__menu-item--text">Combo</p>
+                    </a>
+                    <a href="#internet" class="container__menu--item">
+                        <i class="iconfpt-internet"></i>
+                        <p class="container__menu-item--text">Internet</p>
+                    </a>
+                    <a href="#camera" class="container__menu--item">
+                        <i class="iconfpt-camera"></i>
+                        <p class="container__menu-item--text">Camera</p>
+                    </a>
+                    <a href="#fptplay" class="container__menu--item">
+                        <i class="iconfpt-fptplay"></i>
+                        <p class="container__menu-item--text">FPT Play</p>
+                    </a>
+                    <a href="#playbox" class="container__menu--item">
+                        <i class="iconfpt-fptplaybox"></i>
+                        <p class="container__menu-item--text">FPT Play Box</p>
+                    </a>
                 </div>
             </div>
-        </div>
-        <div class="container__fptplay">
-            <div class="container__fptplay--title">
-                <p class="fptplay__title--text">
-                    fpt play title
-                </p>
-                <p class="fptplay__title--description">
-                    fpt play description
-                </p>
-            </div>
-            <div class="fptplay__package--list">
-                <div class="fptplay__package--item">
-                    fpt play item
-                </div>
-                <div class="fptplay__package--item">
-                    fpt play item
-                </div>
-                <div class="fptplay__package--item">
-                    fpt play item
-                </div>
-            </div>
-        </div>
-        <div class="container__playbox">
-            <div class="container__playbox--title">
-                <p class="playbox__title--text">
-                    fpt play box title
-                </p>
-                <p class="playbox__title--description">
-                    fpt play box description
-                </p>
-            </div>
-            <div class="fptplay__package--list">
-                <div class="fptplay__package--item">
-                    fpt play box item
-                </div>
-                <div class="fptplay__package--item">
-                    fpt play box item
-                </div>
-            </div>
-        </div>
-        <div class="container__sub--banner"></div>
-        <div class="container__func">
-            <div class="container__func--col">
-                <div class="func__item"></div>
-                <div class="func__item"></div>
-            </div>
-            <div class="container__func--col">
-                <div class="func__item"></div>
-                <div class="func__item"></div>
-            </div>
-            <div class="container__func--col">
-                <div class="func__item"></div>
-                <div class="func__item"></div>
-            </div>
-        </div>
-        <div class="container__news">
-            <div class="container__news--header">
-                <div class="news__title">
-                    <p class="news__title--text">
-                        news title
+            <div id="combo" class="container__combo">
+                <div class="container__title">
+                    <p class="container__title--text">
+                        This is title
                     </p>
-                    <p class="news__title--description">
-                        news description
+                    <div class="container__title--menu">
+                        <a href="">Menu</a>
+                        <a href="">Menu</a>
+                        <a href="">Menu</a>
+                    </div>
+                </div>
+                <div class="container__combo--list">
+                    <div class="container__combo--item">combo item</div>
+                    <div class="container__combo--item">combo item</div>
+                    <div class="container__combo--item">combo item</div>
+                </div>
+            </div>
+            <div id="internet" class="container__internet">
+                <div class="container__internet--title">
+                    <p class="internet__title--text">
+                        internet title
+                    </p>
+                    <p class="internet__title--description">
+                        internet description
                     </p>
                 </div>
-                <div class="container__news--see-all">
-                    <button class="news__see-all"></button>
+                <div class="internet__package--list">
+                    <div class="internet__package--item">internet item</div>
+                    <div class="internet__package--item">internet item</div>
+                    <div class="internet__package--item">internet item</div>
                 </div>
             </div>
-            <div class="news__package--list">
-                <div class="news__package--item">news item</div>
-                <div class="news__package--item">news item</div>
-                <div class="news__package--item"> news item</div>
+            <div id="camera" class="container__camera">
+                <div class="container__camera--title">
+                    <p class="camera__title--text">
+                        Camera title
+                    </p>
+                    <p class="camera__title--description">
+                        camera description
+                    </p>
+                </div>
+                <div class="camera__package--list">
+                    <div class="camera__package--item">
+                        camera item
+                    </div>
+                    <div class="camera__package--item">
+                        camera item
+                    </div>
+                </div>
+            </div>
+            <div id="fptplay" class="container__fptplay">
+                <div class="container__fptplay--title">
+                    <p class="fptplay__title--text">
+                        fpt play title
+                    </p>
+                    <p class="fptplay__title--description">
+                        fpt play description
+                    </p>
+                </div>
+                <div class="fptplay__package--list">
+                    <div class="fptplay__package--item">
+                        fpt play item
+                    </div>
+                    <div class="fptplay__package--item">
+                        fpt play item
+                    </div>
+                    <div class="fptplay__package--item">
+                        fpt play item
+                    </div>
+                </div>
+            </div>
+            <div id="playbox" class="container__playbox">
+                <div class="container__playbox--title">
+                    <p class="playbox__title--text">
+                        fpt play box title
+                    </p>
+                    <p class="playbox__title--description">
+                        fpt play box description
+                    </p>
+                </div>
+                <div class="fptplay__package--list">
+                    <div class="fptplay__package--item">
+                        fpt play box item
+                    </div>
+                    <div class="fptplay__package--item">
+                        fpt play box item
+                    </div>
+                </div>
+            </div>
+            <div class="container__sub--banner"></div>
+            <div class="container__func">
+                <div class="container__func--col">
+                    <div class="func__item"></div>
+                    <div class="func__item"></div>
+                </div>
+                <div class="container__func--col">
+                    <div class="func__item"></div>
+                    <div class="func__item"></div>
+                </div>
+                <div class="container__func--col">
+                    <div class="func__item"></div>
+                    <div class="func__item"></div>
+                </div>
+            </div>
+            <div class="container__news">
+                <div class="container__news--header">
+                    <div class="news__title">
+                        <p class="news__title--text">
+                            news title
+                        </p>
+                        <p class="news__title--description">
+                            news description
+                        </p>
+                    </div>
+                    <div class="container__news--see-all">
+                        <button class="news__see-all"></button>
+                    </div>
+                </div>
+                <div class="news__package--list">
+                    <div class="news__package--item">news item</div>
+                    <div class="news__package--item">news item</div>
+                    <div class="news__package--item"> news item</div>
+                </div>
+            </div>
+            <div class="container__support">
+                <div class="container__support--icon"></div>
+                <div class="container__support--text"></div>
+                <div class="container__support--submit">
+                    <button class="btn__support--submit"></button>
+                </div>
             </div>
         </div>
-        <div class="container__support">
-            <div class="container__support--icon"></div>
-            <div class="container__support--text"></div>
-            <div class="container__support--submit">
-                <button class="btn__support--submit"></button>
-            </div>
-        </div>
-    </div>
     </div>
     <footer class="footer">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias dolore quidem aliquid earum voluptatem ut
-        nesciunt consectetur incidunt provident at impedit fugiat, eligendi enim ipsum blanditiis illo! Temporibus,
-        explicabo tenetur! footer
+        <div class="footer__row">
+            <div class="footer__social">
+                <img src="" alt="">
+                <div class="footer__social--icon-group"></div>
+            </div>
+        </div>
+        <div class="footer__row">
+            <div class="footer__col"></div>
+            <div class="footer__col"></div>
+            <div class="footer__col"></div>
+            <div class="footer__col"></div>
+        </div>
     </footer>
+    </div>
 </body>
 
 </html>
