@@ -5,6 +5,45 @@
 
 }
 
+.interface-circle-plus{
+    background-size: 808px 128px;
+    height: 24px;
+    width: 24px;
+    background-position: -225px -10px;
+}
+.interface-circle-subtract{
+    background-size: 808px 128px;
+    height: 24px;
+    width: 24px;
+    background-position: -246px -10px;
+}
+
+.interface-circle-close{
+    background-size: 808px 128px;
+    height: 24px;
+    width: 24px;
+    background-position: -267px -10px;
+}
+.interface-plus{
+    background-size: 808px 128px;
+    height: 24px;
+    width: 24px;
+    background-position: -288px -10px;
+}
+
+.interface-subtract{
+    background-size: 808px 128px;
+    height: 24px;
+    width: 24px;
+    background-position: -309px -10px;
+}
+.interface-close{
+    background-size: 808px 128px;
+    height: 24px;
+    width: 24px;
+    background-position: -330px -10px;
+}
+
 .interface-search {
     background-size: 808px 128px;
     height: 20px;
@@ -16,7 +55,22 @@
     background-size: 808px 128px;
     height: 24px;
     width: 24px;
-    background-position: -537px -52px;
+    background-position: -537px -51px;
     display: inline-block;
     color: white;
+}
+
+.interface-camera {
+    background-size: 808px 128px;
+    height: 24px;
+    width: 24px;
+    background-position: -332px -51px;
+    display: inline-block;
+}
+.interface-wifi{
+    background-size: 808px 128px;
+    height: 24px;
+    width: 24px;
+    background-position: -288px -51px;
+    display: inline-block;
 }

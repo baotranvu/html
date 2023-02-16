@@ -43,9 +43,9 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 0px 0px 24px;
+    padding: 0px;
     width: 795px;
-    height: 112px;
+    height: 88px;
 }
 
 .combo__menu-tab {
@@ -53,32 +53,93 @@
     flex-direction: column;
     align-items: center;
     padding: 32px 0px 16px;
-
     width: 152px;
     height: 88px;
-
     /* Color/White/10% */
-
     background: rgba(255, 255, 255, 0.1);
 }
 
 .combo__menu-tab--item {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    gap: 16px;
+    width: 200px;
+    height: 25px;
+    background: #E6E8EC;
+    border-radius: 100px;
+    font-family: 'Google Sans Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+}
+
+.combo__menu-tab--item:hover {
+    background: #FF6421;
+    color: #ffff;
+}
+
+.combo__list {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 0px;
-    gap: 4px;
-    background: #E6E8EC;
-    border-radius: 100px;
-    width: max-content;
-    height: 40px;
+    width: 1200px;
+    height: 744px;
+}
 
-    border-radius: 100px;
+.combo__list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    width: 389.33px;
+    height: 744px;
+    padding-top: 50px;
+    /* Color/White/100% */
+    background: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid #B1B5C3;
+    margin: 0 5px 0 5px;
+}
 
-    /* Inside auto layout */
+.combo__list-item:hover {
+    border: 1px solid #FF6644;
+}
 
-    flex: none;
-    order: 2;
-    flex-grow: 0;
+.combo__item-content--header {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 293.33px;
+    height: 24px;
+}
+
+.content__header-text {
+    width: 137.33px;
+    height: 24px;
+    /* Headline/Headline 5 */
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+    /* gra */
+    background: linear-gradient(234.5deg, #FF6644 27.65%, #FFBD5A 81.11%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
 }

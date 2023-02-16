@@ -71,7 +71,6 @@
     align-items: center;
     padding: 0px;
     width: 1920px;
-    height: 964px;
 }
 
 .container__internet {
@@ -112,4 +111,13 @@
     padding: 0px;
     width: 1920px;
     height: 964px;
+}
+
+.combo__item-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 293.33px;
+    height: 744px;
 }
